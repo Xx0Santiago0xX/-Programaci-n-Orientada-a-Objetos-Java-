@@ -1,0 +1,24 @@
+package Poo;
+
+public class Atributos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Producto producto = new Producto();  // Crea una instancia de la clase Producto
+//Establece el nombre del producto usando el método setNombre
+producto.setNombre("nombre:"+"cadena");
+System.out.println(producto.getNombre());// Imprime el nombre del producto usando el método getNombre
+
+//Establece el identificador del producto usando el método setIdentificadorDeProducto
+producto.setIdentificadorDeProducto("HDIT190803800");
+System.out.println("Identificador:"+producto.getIdentificadorDeProducto());// Imprime el identificador del producto usando el método getIdentificadorDeProducto
+//Establece el precio del producto usando el método setPrecio
+producto.setPrecio(500);
+System.out.println("Precio:"+producto.getPrecio());// Imprime el precio del producto usando el método getPrecio
+//Establece la cantidad de existencias del producto usando el método setExistencias
+producto.setExistencias(2);
+System.out.println("Existencias:"+producto.getExistencias());// Imprime la cantidad de existencias del producto usando el método getExistencias
+
+	}
+
+}
