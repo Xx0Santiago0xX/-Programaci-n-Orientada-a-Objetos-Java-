@@ -1,0 +1,24 @@
+package Poo;
+
+public class Atributos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Producto producto = new Producto();
+
+producto.setNombre("nombre:"+"cadena");
+System.out.println(producto.getNombre());
+
+
+producto.setIdentificadorDeProducto(200);
+System.out.println("Identificador:"+producto.getIdentificadorDeProducto());
+
+producto.setPrecio(500);
+System.out.println("Precio:"+producto.getPrecio());
+
+producto.setExistencias(2);
+System.out.println("Existencias"+producto.getExistencias());
+
+	}
+
+}
