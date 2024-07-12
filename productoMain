@@ -1,0 +1,38 @@
+package Poo;
+
+public class Producto {
+
+//Declaracion de atrubutos privados de la clase producto
+		private String identificadorDeProducto;
+		private String Nombre;
+		private double Precio = 0.0 ; 
+		private int Existencias = 0;
+		
+		//Creacion de getters y setters de los atributos de la clase pruducto que permiten acceder y modificar los atributos privados desde fuera de la clase
+		
+		public String getIdentificadorDeProducto() {
+			return identificadorDeProducto;
+		}
+		public void setIdentificadorDeProducto(String identificadorDeProducto) {
+			this.identificadorDeProducto = identificadorDeProducto;
+		}
+		public String getNombre() {
+			return Nombre;
+		}
+		public void setNombre(String nombre) {
+			Nombre = nombre;
+		}
+		public double getPrecio() {
+			return Precio;
+		}
+		public void setPrecio(double precio) {
+			Precio = precio;
+		}
+		public int getExistencias() {
+			return Existencias;
+		}
+		public void setExistencias(int existencias) {
+			Existencias = existencias;
+		}
+		
+	 
